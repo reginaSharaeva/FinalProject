@@ -1,0 +1,40 @@
+.search-catalog{
+    display: block;
+    height: 50px;
+}
+
+.toy{
+    margin: 30px 0 0 30px;
+    display: inline-block;
+    width: 300px;
+}
+
+.toy-img{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.toy-search{
+    height: 150px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.toy-catalog{
+}
+
+.href-catalog{
+    margin: 0 0 10px 10px;
+    display: block;
+    text-align: center;
+}
+
+.add-tocard-catalog{
+    display: block;
+    margin: 0 auto;
+}
+
+#item-category{
+    color: red;
+}

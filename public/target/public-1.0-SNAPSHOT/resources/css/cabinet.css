@@ -1,0 +1,41 @@
+.cabinet-title{
+    height: 170px;
+    padding: 80px 0 0 0;
+}
+
+.cabinet-title>span{
+    display: block;
+    margin: 0 0 0 100px;
+    color: black;
+    font: bold 36px serif;
+}
+
+.cabinet-user{
+    font: bold 20px serif;
+    margin: 0 0 0 100px;
+    display: block;
+}
+.cabinet-order{
+    font: normal 18px serif;
+    margin: 30px 0 0 100px;
+    display: block;
+}
+.cabinet-order-container{
+    margin: 30px 0 0 100px;
+}
+
+.table1{
+    margin-bottom: 10px;
+}
+.column1{
+    min-width: 150px;
+
+}
+.column2{
+    min-width: 150px;
+    text-align: center;
+}
+.column3{
+    min-width: 100px;
+    text-align: right;
+}
