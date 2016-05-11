@@ -1,215 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a20b20b-594a-4f79-968a-241b4b699756" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_aspectj_aspectjrt_1_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_freemarker_freemarker_2_3_20.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_springframework_security_spring_security_acl_3_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_springframework_security_spring_security_config_3_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_springframework_security_spring_security_core_3_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_springframework_security_spring_security_taglibs_3_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_springframework_security_spring_security_web_3_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\.idea\libraries\Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\HashMake.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\Address.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\Cart.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\Category.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\Good.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\Order.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\Order_Good.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\domain\User.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\AddressRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\CartRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\CategoryRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\GoodRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\OrderGoodRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\OrderRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\repository\UserRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\AddressService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\CartService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\CategoryService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\GoodService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\OrderGoodService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\OrderService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\ru\kpfu\itis\toyshop\service\UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\core\target\classes\toyshop-core.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\aspects\MenuList.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\aspects\annotations\IncludeMenuList.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\BaseController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\CabinetController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\CartController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\CatalogController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\GoodController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\OrderController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\controllers\RegistrationController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\form\ChangeInfoFormBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\form\OrderFormBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\form\RegistrationFormBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\security\MyUserDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\classes\ru\kpfu\itis\toyshop\security\MyUserDetailService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\aspects\MenuList.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\aspects\annotations\IncludeMenuList.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\BaseController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\CabinetController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\CartController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\CatalogController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\GoodController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\OrderController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\controllers\RegistrationController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\form\ChangeInfoFormBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\form\OrderFormBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\form\RegistrationFormBean.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\security\MyUserDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\classes\ru\kpfu\itis\toyshop\security\MyUserDetailService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\aspectjrt-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\aspectjweaver-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\freemarker-2.3.20.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\spring-aop-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\spring-security-acl-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\spring-security-config-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\spring-security-core-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\spring-security-taglibs-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\final_project\WEB-INF\lib\spring-security-web-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\spring\application-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\spring\spring-aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\spring\spring-security.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\cabinet\cabinet.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\cabinet\changeInfo.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\carousel\index.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\cartPage.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\catalog\catalog.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\catalog\catalogContent.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\good.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\login.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\main_page.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\orderPage.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\registration\error_page.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\registration\registrationPage.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\registration\result.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\templates\header.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\templates\main_template.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\WEB-INF\views\templates\static.ftl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\cabinet.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\cart.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\catalog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\custom.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\good.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\main-page.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\static.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\barbie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\bee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\beetle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\bratz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\car.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\cheburashka.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\farfor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\giraffe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\kamaz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\kukla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\kukla_ping.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\labyrinth.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\lego.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\magazin-igrushek1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\magazin-igrushek2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\magazin-igrushek3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\mir-igrushek.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\mir.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\moxie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\piano.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\plastikdish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\porshe_cayman_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\pottery.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\pups.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\pyramid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\rabbit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\strelka.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\strelka1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\teddy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\thomas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\toyball.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\train.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\images\train1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\jquery-1.12.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\my\cart.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\my\catalog.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Natfullin\FinalProject\public\target\public-1.0-SNAPSHOT\resources\js\prefixfree.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/HashMake.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/HashMake.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/LoginController.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/LoginController.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/LoginValidator.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/LoginValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/LoginValidator.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/LoginValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/MainPageController.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/MainPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/MainPageController.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/MainPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/entities/Order.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/entities/Order.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/OrderController.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/OrderController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/OrderController.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/OrderController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/form/OrderForm.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/form/OrderForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/form/OrderForm.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/form/OrderForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/OrderPageController.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/OrderPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/OrderPageController.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/OrderPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/OrderRepository.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/OrderRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/OrderRepositoryImpl.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/OrderRepositoryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/OrderValidator.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/OrderValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/OrderValidator.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/OrderValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/UpdateUserValidator.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/UpdateUserValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/UpdateUserValidator.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/UpdateUserValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/entities/User.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/entities/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/UserController.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/controllers/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/UserController.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/controllers/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/form/UserForm.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/form/UserForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/form/UserForm.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/form/UserForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/UserRepository.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/UserRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/UserRepositoryImpl.class" afterPath="$PROJECT_DIR$/core/target/classes/org/itis/gr404/repositories/UserRepositoryImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/UserValidator.class" afterPath="$PROJECT_DIR$/public/target/classes/org/itis/gr404/validators/UserValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/UserValidator.class" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/classes/org/itis/gr404/validators/UserValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/WEB-INF/lib/core-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/public/target/final_project/WEB-INF/lib/core-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/org/itis/gr404/HashMake.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/itis/gr404/HashMake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/LoginController.java" afterPath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/validators/LoginValidator.java" afterPath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/validators/LoginValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/MainPageController.java" afterPath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/MainPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/OrderController.java" afterPath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/OrderController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/validators/OrderValidator.java" afterPath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/validators/OrderValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/UserController.java" afterPath="$PROJECT_DIR$/public/src/main/java/org/itis/gr404/controllers/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/webapp/views/main_page.jsp" afterPath="$PROJECT_DIR$/public/src/main/webapp/views/main_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/views/main_page.jsp" afterPath="$PROJECT_DIR$/public/target/final_project/views/main_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/webapp/views/new_order.jsp" afterPath="$PROJECT_DIR$/public/src/main/webapp/views/new_order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/views/new_order.jsp" afterPath="$PROJECT_DIR$/public/target/final_project/views/new_order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/webapp/views/new_user.jsp" afterPath="$PROJECT_DIR$/public/src/main/webapp/views/new_user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/views/new_user.jsp" afterPath="$PROJECT_DIR$/public/target/final_project/views/new_user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/webapp/views/order_page.jsp" afterPath="$PROJECT_DIR$/public/src/main/webapp/views/order_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/views/order_page.jsp" afterPath="$PROJECT_DIR$/public/target/final_project/views/order_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pom.xml" afterPath="$PROJECT_DIR$/public/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/public.iml" afterPath="$PROJECT_DIR$/public/public.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/public_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/public_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/webapp/views/update_order.jsp" afterPath="$PROJECT_DIR$/public/src/main/webapp/views/update_order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/views/update_order.jsp" afterPath="$PROJECT_DIR$/public/target/final_project/views/update_order.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/main/webapp/views/update_user.jsp" afterPath="$PROJECT_DIR$/public/src/main/webapp/views/update_user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/target/final_project/views/update_user.jsp" afterPath="$PROJECT_DIR$/public/target/final_project/views/update_user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1a20b20b-594a-4f79-968a-241b4b699756" name="Default" comment="" />
     <ignored path="MyProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -257,7 +49,7 @@
       <file leaf-file-name="OrderValidator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/src/main/java/org/itis/gr404/validators/OrderValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.046153847">
+            <state vertical-scroll-proportion="0.12820514">
               <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1117,15 +909,15 @@
       <workItem from="1461922433742" duration="34000" />
       <workItem from="1461922704271" duration="1525000" />
       <workItem from="1461924855847" duration="8000" />
-      <workItem from="1462957460427" duration="6729000" />
+      <workItem from="1462957460427" duration="7800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140809000" />
+    <option name="totallyTimeSpent" value="141880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1621,14 +1413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/main/webapp/views/update_user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1860465">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/src/main/webapp/views/update_order.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3076923">
@@ -1793,9 +1577,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/main/webapp/views/update_user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.529517">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/src/main/java/org/itis/gr404/validators/OrderValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.046153847">
+        <state vertical-scroll-proportion="0.12820514">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
