@@ -16,7 +16,7 @@ import java.util.List;
  * Created by Regina on 13.04.2016.
  */
 @Controller
-@RequestMapping(value = "/final_project")
+@RequestMapping(value = "/usersList")
 public class MainPageController {
 
     @Autowired
@@ -36,6 +36,6 @@ public class MainPageController {
     public String onSubmitDelete(@PathVariable("id") int id) {
         User user = userRepository.getUserById(id);
         userRepository.deleteUser(user);
-        return "redirect:/final_project";
+        return "redirect:/usersList";
     }
 }

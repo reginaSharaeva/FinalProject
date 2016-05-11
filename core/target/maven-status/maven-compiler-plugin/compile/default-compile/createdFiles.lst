@@ -1,0 +1,7 @@
+org\itis\gr404\HashMake.class
+org\itis\gr404\repositories\UserRepositoryImpl.class
+org\itis\gr404\repositories\UserRepository.class
+org\itis\gr404\entities\User.class
+org\itis\gr404\entities\Order.class
+org\itis\gr404\repositories\OrderRepository.class
+org\itis\gr404\repositories\OrderRepositoryImpl.class

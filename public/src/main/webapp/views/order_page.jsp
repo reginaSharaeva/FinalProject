@@ -58,15 +58,15 @@
       <td class="orderpage-colomn2">${order.price}</td>
       <td class="orderpage-colomn4">${order.user.firstName} ${order.user.lastName}</td>
       <td class="orderpage-colomn3">
-        <a href="/orderPage/updateOrder/${order.id}" class="orderpage-input">Изменить</a>
+        <a href="/final_project/orderPage/updateOrder/${order.id}" class="orderpage-input">Изменить</a>
 
-        <a href="/orderPage/deleteOrder/${order.id}" class="orderpage-input">Удалить</a>
+        <a href="/final_project/orderPage/deleteOrder/${order.id}" class="orderpage-input">Удалить</a>
       </td>
     </tr>
   </c:forEach>
 </table>
 <div>
-    <a href="/back" class="orderpage-input2">Назад</a>
+    <a href="/final_project/back" class="orderpage-input2">Назад</a>
 </div>
 </body>
 </html>

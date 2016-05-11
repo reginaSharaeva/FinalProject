@@ -40,12 +40,6 @@
             <artifactId>spring-web</artifactId>
             <version>${org.springframework.version}</version>
         </dependency>
-        <!-- FreeMarker -->
-        <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>${org.freemarker.version}</version>
-        </dependency>
         <!-- Servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -57,69 +51,31 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
-
-        <!-- Spring Security -->
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
-            <version>${spring-security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-config</artifactId>
-            <version>${spring-security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-web</artifactId>
-            <version>${spring-security.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-taglibs</artifactId>
-            <version>${spring-security.version}</version>
-        </dependency>
-        <!-- Spring AOP + AspectJ -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
-
     </dependencies>
-
-    <properties>
-        <user>12</user>
-        <deployFolder>C:/Java/Tomcat/apache-tomcat-8.0.28/webapps/</deployFolder>
-        <project.build.finalName>final_project</project.build.finalName>
-    </properties>
-
     <build>
-        <finalName>final_project</finalName>
         <resources>
             <resource>
                 <directory>src/main/webapp/views/resources</directory>
                 <filtering>true</filtering>
             </resource>
         </resources>
+        <finalName>final_project</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
+                    <resourceEncoding>UTF-8</resourceEncoding>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <showWarnings>true</showWarnings>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
             <plugin>
@@ -141,4 +97,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

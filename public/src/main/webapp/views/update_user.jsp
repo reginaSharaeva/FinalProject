@@ -33,7 +33,7 @@
 <body>
 <span class="title">Изменение пользователя: </span>
 <br/><br/>
-<a href="/cancelUser">Отмена</a>
+<a href="/final_project/cancelUser">Отмена</a>
 <br/><br/>
 <form:form method="post" commandName="userForm" cssClass="update-user-page-input">
   Имя: <form:errors path="firstName" cssClass="error"/><br />

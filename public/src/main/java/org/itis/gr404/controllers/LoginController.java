@@ -42,7 +42,7 @@ public class LoginController {
         if (bindingResult.hasErrors()) {
             return "loginPage";
         }
-        return "redirect:/final_project";
+        return "redirect:/usersList";
 
     }
 }

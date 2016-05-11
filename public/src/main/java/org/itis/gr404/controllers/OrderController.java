@@ -57,7 +57,7 @@ public class OrderController {
         User user = userRepository.getUserByLogin(orderForm.getUserLogin());
         order.setUser(user);
         orderRepository.saveOrder(order);
-        return "redirect:/final_project";
+        return "redirect:/usersList";
 
     }
 
@@ -68,7 +68,7 @@ public class OrderController {
 
     @RequestMapping(value = "/back", method = RequestMethod.GET)
     public Object initBack() {
-        return "redirect:/final_project";
+        return "redirect:/usersList";
     }
 
 

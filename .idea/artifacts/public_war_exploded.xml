@@ -38,18 +38,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.20" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.1.RELEASE" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.2" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">

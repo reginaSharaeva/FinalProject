@@ -37,7 +37,7 @@
 <body>
 <span class="title">Изменение заказа: </span>
 <br/><br/>
-<a href="/cancelOrder">Отмена</a>
+<a href="/final_project/cancelOrder">Отмена</a>
 <br/><br/>
 <form:form method="post" commandName="orderForm" cssClass="update-order-page-input">
   Название товара: <form:errors path="good" cssClass="error"/><br />

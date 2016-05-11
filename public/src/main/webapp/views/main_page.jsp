@@ -48,9 +48,9 @@
 
     <span class="title">Список пользователей:</span>
 
-    <a href="/orderPage" class="mainpage-href">Список заказов</a>
+    <a href="/final_project/orderPage" class="mainpage-href">Список заказов</a>
 
-    <a href="/newOrder" class="mainpage-href">Создать заказ</a>
+    <a href="/final_project/newOrder" class="mainpage-href">Создать заказ</a>
 
 <table border="1" class="mainpage-table">
     <tr>
@@ -73,7 +73,7 @@
     </c:forEach>
 </table>
 <div>
-    <a href="/newUser" class="mainpage-input2">Создать пользователя</a>
+    <a href="/final_project/newUser" class="mainpage-input2">Создать пользователя</a>
 </div>
 </body>
 </html>

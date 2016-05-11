@@ -49,7 +49,7 @@ public class UserController {
         user.setLogin(userForm.getLogin());
         user.setPassword(userForm.getPassword());
         userRepository.saveUser(user);
-        return "redirect:/final_project";
+        return "redirect:/usersList";
 
     }
 
@@ -82,11 +82,11 @@ public class UserController {
             user.setPassword(hashMake.md5Apache(userForm.getPassword()));
         }
         userRepository.updateUser(user);
-        return "redirect:/final_project";
+        return "redirect:/usersList";
     }
 
     @RequestMapping(value = "/cancelUser", method = RequestMethod.GET)
     public Object initForm() {
-        return "redirect:/final_project";
+        return "redirect:/usersList";
     }
 }

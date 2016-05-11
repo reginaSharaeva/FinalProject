@@ -33,7 +33,9 @@ public class LoginValidator implements Validator {
             } else {
                 HashMake hashMake =  new HashMake();
                 String psw = hashMake.md5Apache(user.getPassword());
-                if (! psw.equals(u.getPassword())) {
+                System.out.println("pswd=" + user.getPassword());
+                System.out.println("hash=" + psw);
+                if (!psw.equals(u.getPassword())) {
                     errors.rejectValue("password", "incorrect", "Неверный пароль!");
                 }
             }

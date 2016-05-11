@@ -32,7 +32,7 @@
 <body>
 <span class="title">Добавление пользователя: </span>
 <br/><br/>
-<a href="/cancelUser">Отмена</a>
+<a href="/final_project/cancelUser">Отмена</a>
 <br/><br/>
 <form:form method="post" commandName="userForm" cssClass="new-user-page-input">
   Имя: <form:errors path="firstName" cssClass="error"/><br />
