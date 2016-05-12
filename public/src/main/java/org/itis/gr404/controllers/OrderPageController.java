@@ -20,7 +20,7 @@ import java.util.List;
  * Created by Регина on 13.04.2016.
  */
 @Controller
-@RequestMapping(value = "orderPage" )
+@RequestMapping(value = "/orderPage" )
 public class OrderPageController {
     @Autowired
     private OrderRepository orderRepository;

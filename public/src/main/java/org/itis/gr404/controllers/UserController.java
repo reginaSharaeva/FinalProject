@@ -68,7 +68,7 @@ public class UserController {
     }
 
     @RequestMapping(value="/updateUser/{id}", method = RequestMethod.POST)
-    public Object onSubmitUpdate(@PathVariable("id") int id, @ModelAttribute("user") UserForm userForm, BindingResult bindingResult) {
+    public Object onSubmitUpdate(@PathVariable("id") int id, @ModelAttribute("userForm") UserForm userForm, BindingResult bindingResult) {
         updateUserValidator.validate(userForm, bindingResult);
         if (bindingResult.hasErrors()) {
             return "update_user";

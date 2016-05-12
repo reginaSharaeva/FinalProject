@@ -48,6 +48,14 @@ public class User {
         this.orders = orders;
     }
 
+    public User(String firstName, String lastName, int age, String login, String password) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.login = login;
+        this.password = password;
+    }
+
     public Integer getId() {
         return id;
     }

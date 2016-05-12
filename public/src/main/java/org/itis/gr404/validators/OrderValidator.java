@@ -4,7 +4,6 @@ import org.itis.gr404.validators.form.OrderForm;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.Errors;
-import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 /**
@@ -17,44 +16,49 @@ public class OrderValidator implements Validator {
         return OrderForm.class.equals(aClass);
     }
 
-//    private enum ERROR_TYPES {
-//        OK,
-//        NO_PRICE,
-//        NEGATIVE_PRICE;
-//    }
+    public enum ERROR_TYPES {
+        OK,
+        NO_PRICE,
+        NEGATIVE_PRICE,
+        NO_GOOD,
+        NEGATIVE_GOOD;
+    }
 
     public void validate(Object obj, Errors errors) {
         OrderForm orderForm = (OrderForm) obj;
-//        ERROR_TYPES error = validate(orderForm);
-//        if (!error.equals(ERROR_TYPES.OK)) {
-//            switch (error) {
-//                case NO_PRICE:
-//                    errors.rejectValue( "good", "field.required", "Введите название товара");
-//                    break;
-//                case NEGATIVE_PRICE:
-//                    break;
-//            }
-//
-//        }
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "good", "field.required", "Введите название товара");
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "price", "field.required", "Введите цену");
+        ERROR_TYPES result = validate(orderForm);
+        if (!result.equals(ERROR_TYPES.OK)) {
+            switch (result) {
+                case NO_PRICE:
+                    errors.rejectValue("good", "field.required", "Введите название товара");
+                    break;
+                case NO_GOOD:
+                    errors.rejectValue("price", "field.required", "Введите цену");
+                    break;
+                case NEGATIVE_PRICE:
+                    errors.rejectValue("price", "incorrect", "Неверный формат цены!");
+                    break;
+                case NEGATIVE_GOOD:
+                    errors.rejectValue("good", "incorrect", "Неверный формат!");
+                    break;
+            }
 
-        if ( ! errors.hasFieldErrors("price")) {
-            if (!orderForm.getPrice().matches("^[0-9]+$") || orderForm.getPrice().equals("0") ) {
-                errors.rejectValue("price", "incorrect", "Неверный формат!");
-            }
-        }
-        if ( ! errors.hasFieldErrors("good")) {
-            if (!orderForm.getGood().matches("^[a-zA-ZА-Яа-я\\s]+$")) {
-                errors.rejectValue("good", "incorrect", "Неверный формат!");
-            }
         }
     }
 
-//    private ERROR_TYPES validate(OrderForm form) {
-//        //
-//        if (!StringUtils.hasText(form.getPrice())) {
-//            return ERROR_TYPES.NO_PRICE;
-//        }
-//    }
+    public ERROR_TYPES validate(OrderForm form) {
+        if (!StringUtils.hasText(form.getPrice()) || form.getPrice().equals("0")) {
+            return ERROR_TYPES.NO_PRICE;
+        }
+        if (!StringUtils.hasText(form.getGood())) {
+            return ERROR_TYPES.NO_GOOD;
+        }
+        if (!form.getPrice().matches("^[0-9]+$")) {
+            return ERROR_TYPES.NEGATIVE_PRICE;
+        }
+        if (!form.getGood().matches("^[a-zA-ZА-Яа-я\\s]+$")) {
+            return ERROR_TYPES.NEGATIVE_GOOD;
+        }
+        return ERROR_TYPES.OK;
+    }
 }

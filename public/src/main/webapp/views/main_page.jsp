@@ -66,8 +66,8 @@
             <td class="mainpage-colomn3">${user.age}</td>
             <td class="mainpage-colomn2">${user.login}</td>
             <td class="mainpage-colomn4">
-                <a href="/updateUser/${user.id}" class="mainpage-input">Изменить</a>
-                <a href="/final_project/deleteUser/${user.id}" class="mainpage-input">Удалить</a>
+                <a href="/final_project/updateUser/${user.id}" class="mainpage-input">Изменить</a>
+                <a href="/final_project/usersList/deleteUser/${user.id}" class="mainpage-input">Удалить</a>
             </td>
         </tr>
     </c:forEach>
