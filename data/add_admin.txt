@@ -1,0 +1,2 @@
+insert into users (firstname, lastname, age, login, password) values ("Regina", "Sharaeva", 20, "admin", "a1fa166cba0595f2beb07dccff42af11");
+insert into users (firstname, lastname, age, login, password) values ("Ayrat", "Natfullin", 32, "ayrat", "1dd40e7cd1d1f04a0a007e1229737940");
