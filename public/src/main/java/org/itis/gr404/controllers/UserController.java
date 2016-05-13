@@ -3,16 +3,14 @@ package org.itis.gr404.controllers;
 import org.itis.gr404.HashMake;
 import org.itis.gr404.entities.User;
 import org.itis.gr404.repositories.UserRepository;
-import org.itis.gr404.validators.UpdateUserValidator;
-import org.itis.gr404.validators.form.UserForm;
 import org.itis.gr404.validators.UserValidator;
+import org.itis.gr404.validators.form.UserForm;
+import org.itis.gr404.validators.CreateUserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by Регина on 13.04.2016.
@@ -21,10 +19,10 @@ import javax.servlet.http.HttpServletRequest;
 public class UserController {
 
     @Autowired
-    private UserValidator userValidator;
+    private CreateUserValidator createUserValidator;
 
     @Autowired
-    private UpdateUserValidator updateUserValidator;
+    private UserValidator userValidator;
 
     @Autowired
     private UserRepository userRepository;
@@ -38,7 +36,7 @@ public class UserController {
 
     @RequestMapping(value = "/newUser", method = RequestMethod.POST)
     public String onSubmitAdd(@ModelAttribute("userForm") UserForm userForm, BindingResult bindingResult) {
-        userValidator.validate(userForm, bindingResult);
+        createUserValidator.validate(userForm, bindingResult);
         if (bindingResult.hasErrors()) {
             return "new_user";
         }
@@ -69,7 +67,7 @@ public class UserController {
 
     @RequestMapping(value="/updateUser/{id}", method = RequestMethod.POST)
     public Object onSubmitUpdate(@PathVariable("id") int id, @ModelAttribute("userForm") UserForm userForm, BindingResult bindingResult) {
-        updateUserValidator.validate(userForm, bindingResult);
+        userValidator.validate(userForm, bindingResult);
         if (bindingResult.hasErrors()) {
             return "update_user";
         }

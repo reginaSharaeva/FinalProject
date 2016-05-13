@@ -20,6 +20,7 @@ public class OrderValidator implements Validator {
         OK,
         NO_PRICE,
         NEGATIVE_PRICE,
+        NULL_PRICE,
         NO_GOOD,
         NEGATIVE_GOOD;
     }
@@ -29,35 +30,41 @@ public class OrderValidator implements Validator {
         ERROR_TYPES result = validate(orderForm);
         if (!result.equals(ERROR_TYPES.OK)) {
             switch (result) {
-                case NO_PRICE:
+                case NO_GOOD:
                     errors.rejectValue("good", "field.required", "Введите название товара");
                     break;
-                case NO_GOOD:
+                case NEGATIVE_GOOD:
+                    errors.rejectValue("good", "incorrect", "Неверный формат названия!");
+                    break;
+                case NO_PRICE:
                     errors.rejectValue("price", "field.required", "Введите цену");
                     break;
+                case NULL_PRICE:
+                    errors.rejectValue("price", "nullprice", "Цена должна быть больше нуля!");
                 case NEGATIVE_PRICE:
                     errors.rejectValue("price", "incorrect", "Неверный формат цены!");
                     break;
-                case NEGATIVE_GOOD:
-                    errors.rejectValue("good", "incorrect", "Неверный формат!");
-                    break;
+
             }
 
         }
     }
 
     public ERROR_TYPES validate(OrderForm form) {
-        if (!StringUtils.hasText(form.getPrice()) || form.getPrice().equals("0")) {
-            return ERROR_TYPES.NO_PRICE;
-        }
         if (!StringUtils.hasText(form.getGood())) {
             return ERROR_TYPES.NO_GOOD;
         }
-        if (!form.getPrice().matches("^[0-9]+$")) {
-            return ERROR_TYPES.NEGATIVE_PRICE;
-        }
         if (!form.getGood().matches("^[a-zA-ZА-Яа-я\\s]+$")) {
             return ERROR_TYPES.NEGATIVE_GOOD;
+        }
+        if (!StringUtils.hasText(form.getPrice())) {
+            return ERROR_TYPES.NO_PRICE;
+        }
+        if (form.getPrice().equals("0")) {
+            return ERROR_TYPES.NULL_PRICE;
+        }
+        if (!form.getPrice().matches("^[0-9]+$")) {
+            return ERROR_TYPES.NEGATIVE_PRICE;
         }
         return ERROR_TYPES.OK;
     }

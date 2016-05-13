@@ -29,7 +29,15 @@ public class LoginValidatorTest {
 
     @Test
     public void testNoPassword() {
-        LoginValidator validator = new LoginValidator();
+        UserRepository repository = mock(UserRepositoryImpl.class);
+
+        List<User> users = new ArrayList<User>();
+        users.add(new User("Ayrat", "Natfullin", 32, "ayrat", "parol"));
+        users.add(new User("Regina", "Sharaeva", 20, "admin", "12345"));
+        users.add(new User("Ivan", "Ivanov", 20, "ivan23", new HashMake().md5Apache("12345")));
+
+        when(repository.getAllUsers()).thenReturn(users);
+        LoginValidator validator = new LoginValidator(repository);
         User user = new User("Ivan", "Ivanov", 20, "ivan23", "");
         LoginValidator.ERROR_TYPES result = validator.validate(user);
         Assert.assertEquals(LoginValidator.ERROR_TYPES.NO_PASSWORD, result);

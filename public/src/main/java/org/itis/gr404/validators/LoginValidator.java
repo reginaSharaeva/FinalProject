@@ -66,9 +66,6 @@ public class LoginValidator implements Validator {
         if (!StringUtils.hasText(user.getLogin())) {
             return ERROR_TYPES.NO_LOGIN;
         }
-        if (!StringUtils.hasText(user.getPassword())) {
-            return ERROR_TYPES.NO_PASSWORD;
-        }
         User user1 = null;
         List<User> users = userRepository.getAllUsers();
         for (User u: users) {
@@ -78,13 +75,18 @@ public class LoginValidator implements Validator {
         }
         if (user1 == null) {
             return ERROR_TYPES.NO_USER;
-        } else {
-            HashMake hashMake =  new HashMake();
-            String psw = hashMake.md5Apache(user.getPassword());
-            if (!psw.equals(user1.getPassword())) {
-                return ERROR_TYPES.NEGATIVE_PASSWORD;
-            }
         }
+
+        if (!StringUtils.hasText(user.getPassword())) {
+            return ERROR_TYPES.NO_PASSWORD;
+        }
+
+        HashMake hashMake =  new HashMake();
+        String psw = hashMake.md5Apache(user.getPassword());
+        if (!psw.equals(user1.getPassword())) {
+            return ERROR_TYPES.NEGATIVE_PASSWORD;
+        }
+
         return ERROR_TYPES.OK;
     }
 }

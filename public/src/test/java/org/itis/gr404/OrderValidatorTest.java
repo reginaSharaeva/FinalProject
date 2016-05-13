@@ -31,7 +31,7 @@ public class OrderValidatorTest {
         OrderValidator validator = new OrderValidator();
         OrderForm form = new OrderForm("doll", "0", "ivan23");
         OrderValidator.ERROR_TYPES result = validator.validate(form);
-        Assert.assertEquals(OrderValidator.ERROR_TYPES.NO_PRICE, result);
+        Assert.assertEquals(OrderValidator.ERROR_TYPES.NULL_PRICE, result);
     }
 
     @Test
